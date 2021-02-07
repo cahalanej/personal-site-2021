@@ -1,0 +1,26 @@
+.visuallyHidden:not(:focus):not(:active) {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+.link {
+	color: #00738a;
+	text-decoration: none;
+	border-bottom: 2px solid #00738a;
+	padding-bottom: 1px;
+}
+
+.link:visited {
+	color: #ca3866;
+	border-color: #ca3866;
+}
+
+.link:active {
+	color: #170821;
+	border-color: #170821;
+}

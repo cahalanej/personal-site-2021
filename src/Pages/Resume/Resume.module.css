@@ -1,0 +1,96 @@
+.main {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.sectionNav {
+	width: 180px;
+	margin-top: 24px;
+	border-right: 1px solid #ca3866;
+}
+
+.navList {
+	padding: 0 16px;
+	margin: 0;
+	list-style-type: none;
+}
+
+.listItem {
+	padding: 8px 0;
+}
+
+.resume {
+	max-width: 780px;
+	padding: 0 24px;
+	margin: 24px 24px 30px;
+	background: white;
+	box-shadow: 0px 0px 3px -1px #170821;
+	padding: 8px 16px;
+}
+
+.primary {
+	font-family: 'Merriweather Sans';
+	font-size: 32px;
+	color: #00738a;
+	margin: 8px 0;
+}
+
+.section,
+.content {
+	padding: 0 16px;
+}
+
+.secondary {
+	font-family: 'Merriweather Sans';
+	color: #170821;
+	font-size: 24px;
+	margin: 8px 0;
+}
+
+.tertiary {
+	font-family: 'Merriweather Sans';
+	font-weight: 200;
+	color: #ca3866;
+	text-transform: uppercase;
+	font-size: 18px;
+	margin: 0;
+}
+
+.body {
+	font-family: 'Merriweather';
+	color: #170821;
+	margin: 8px 0;
+	font-size: 14px;
+}
+
+.spacedSiblings {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.dates {
+	font-family: 'Merriweather';
+	font-size: 13px;
+	color: #170821;
+	font-weight: 600;
+	margin: 0;
+}
+
+.stars {
+	display: flex;
+	align-items: center;
+}
+
+.filledStar:before {
+	content: '\2605';
+	color: #ca3866;
+	font-size: 16px;
+}
+
+.emptyStar:before {
+	content: '\2729';
+	color: #ca3866;
+	font-size: 21px;
+}
