@@ -5,19 +5,7 @@
 }
 
 .sectionNav {
-	width: 180px;
-	margin-top: 24px;
-	border-right: 1px solid #ca3866;
-}
-
-.navList {
-	padding: 0 16px;
-	margin: 0;
-	list-style-type: none;
-}
-
-.listItem {
-	padding: 8px 0;
+	display: none;
 }
 
 .resume {
@@ -93,4 +81,23 @@
 	content: '\2729';
 	color: #ca3866;
 	font-size: 21px;
+}
+
+@media only screen and (min-width: 768px) {
+	.sectionNav {
+		display: block;
+		width: 180px;
+		margin-top: 24px;
+		border-right: 1px solid #ca3866;
+	}
+
+	.navList {
+		padding: 0 16px;
+		margin: 0;
+		list-style-type: none;
+	}
+
+	.listItem {
+		padding: 8px 0;
+	}
 }
