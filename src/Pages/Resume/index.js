@@ -1,3 +1,5 @@
+import resumePDF from '../../assets/pdfs/jennifer-cahalane-resume-w2021.pdf'
+
 import Banner from '../../Components/Banner'
 import ExperienceSection from './ExperienceSection'
 import EducationSection from './EducationSection'
@@ -38,10 +40,15 @@ const Resume = () => (
 			</nav>
 			<div className={styles.resume}>
 				<h2 className={globalStyles.visuallyHidden}>Resume</h2>
-				<ExperienceSection />
-				<EducationSection />
-				<SkillsSection />
-				<FunFactsSection />
+				<a href={resumePDF} download={true} className={styles.downloadLink}>
+					Download PDF
+				</a>
+				<div className={styles.resumeCard}>
+					<ExperienceSection />
+					<EducationSection />
+					<SkillsSection />
+					<FunFactsSection />
+				</div>
 			</div>
 		</main>
 	</div>

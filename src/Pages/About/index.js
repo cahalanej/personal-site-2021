@@ -1,4 +1,4 @@
-import hobbiton from '../../assets/jennifer-hobbiton.jpg'
+import hobbiton from '../../assets/jennifer-cahalane-hobbiton.jpg'
 
 import Banner from '../../Components/Banner'
 import styles from './About.module.css'
@@ -10,17 +10,17 @@ const About = () => (
 		<main id="main" className={styles.wrapper}>
 			<img
 				src={hobbiton}
-				alt="Jennifer, smiling and wearing a green cloak, sits in front of a hobbit door in Hobbiton"
+				alt="Jennifer Cahalane, smiling and wearing a green cloak, sits in front of a hobbit door in Hobbiton"
 				className={styles.image}
 			/>
 			<div className={styles.content}>
 				<h2 className={styles.heading}>Why hello there!</h2>
 				<p className={styles.body}>
-					It's so lovely to meet you! My name is Jenny and I'm a software
-					developer who cares passionately about the user and believes that code
-					should be used to help make the world a better place. My work has
-					recently been focused on improving quality and accessibility, and it's
-					given me a new perspective on how I approach code.
+					It's so lovely to meet you! My name is Jenny Cahalane and I'm a
+					software engineer who cares passionately about the user and believes
+					that code should be used to help make the world a better place. My
+					work has recently been focused on improving quality and accessibility,
+					and it's given me a new perspective on how I approach web development.
 				</p>
 				<p className={styles.body}>
 					I'm a habitual{' '}

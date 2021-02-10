@@ -10,11 +10,33 @@
 
 .resume {
 	max-width: 780px;
-	padding: 0 24px;
 	margin: 24px 24px 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+.resumeCard {
 	background: white;
 	box-shadow: 0px 0px 3px -1px #170821;
 	padding: 8px 16px;
+}
+
+.downloadLink {
+	padding: 6px;
+	align-self: flex-end;
+	margin-bottom: 16px;
+	background: #ca3866;
+	border-radius: 4px;
+	box-shadow: 0px 0px 3px -1px #170821;
+	color: #faf6f6;
+	text-decoration: none;
+	border: 2px solid transparent;
+}
+.downloadLink:hover,
+.downloadLink:focus {
+	background: white;
+	color: #ca3866;
+	border-color: #ca3866;
 }
 
 .primary {
@@ -80,7 +102,7 @@
 .emptyStar:before {
 	content: '\2729';
 	color: #ca3866;
-	font-size: 21px;
+	font-size: 16px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -99,5 +121,9 @@
 
 	.listItem {
 		padding: 8px 0;
+	}
+
+	.emptyStar:before {
+		font-size: 21px;
 	}
 }

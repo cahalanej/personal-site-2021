@@ -37,11 +37,18 @@
 	font-family: 'Merriweather Sans';
 }
 
+.navLinkLists {
+	padding: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
 .navList {
 	display: flex;
 	align-items: center;
 	list-style-type: none;
-	padding: 8px;
+	padding: 0;
 	margin: 0;
 }
 
@@ -56,6 +63,11 @@
 	color: #faf6f6;
 	margin-left: 12px;
 	padding: 0;
+}
+
+.navImage {
+	width: 16px;
+	height: 16px;
 }
 
 .activeLink {
@@ -84,8 +96,9 @@
 		font-size: 36px;
 	}
 
-	.navList {
+	.navLinkLists {
 		padding: 0 24px;
+		justify-content: flex-start;
 	}
 
 	.navLink {
