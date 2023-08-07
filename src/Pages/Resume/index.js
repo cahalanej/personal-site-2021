@@ -1,4 +1,4 @@
-import resumePDF from '../../assets/pdfs/jennifer-cahalane-resume-w2021.pdf'
+import resumePDF from '../../assets/pdfs/jennifer_cahalane-resume-su2023.pdf'
 
 import Banner from '../../Components/Banner'
 import ExperienceSection from './ExperienceSection'

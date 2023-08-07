@@ -47,8 +47,15 @@
 }
 
 .section,
-.content {
+.content,
+.skillContent {
 	padding: 0 16px;
+}
+
+.skillContent {
+	display: inline-block;
+	min-width: 119px;
+	text-align: left;
 }
 
 .secondary {
@@ -72,6 +79,11 @@
 	color: #170821;
 	margin: 8px 0;
 	font-size: 14px;
+}
+
+.expListItem {
+	    line-height: 1.5;
+    padding-bottom: 6px;
 }
 
 .spacedSiblings {

@@ -1,6 +1,5 @@
 import { resume } from '../../data/resume'
 import styles from './Resume.module.css'
-import globalStyles from '../../utils/GlobalStyles.module.css'
 
 const Role = ({ role }) => (
 	<div className={styles.content}>
@@ -9,13 +8,16 @@ const Role = ({ role }) => (
 			<p className={styles.dates}>{role.dates}</p>
 		</div>
 		<p className={styles.body}>
-			{role.description}
+		<ul>
+			{role.description.map(item => (
+				<li className={styles.expListItem}>{item}</li>
+			))}
 			{role.tools && (
-				<span>
-					<span className={globalStyles.visuallyHidden}>Used:</span>
-					<em> {role.tools}</em>
-				</span>
+				<li className={styles.expListItem}>
+					<em>Technologies used: {role.tools}</em>
+				</li>
 			)}
+		</ul>
 		</p>
 	</div>
 )
